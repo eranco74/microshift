@@ -129,7 +129,7 @@ github.com/aws/aws-sdk-go/service/sts/stsiface
 github.com/beorn7/perks/quantile
 # github.com/blang/semver v3.5.1+incompatible
 github.com/blang/semver
-# github.com/certifi/gocertifi v0.0.0-20180905225744-ee1a9a0726d2
+# github.com/certifi/gocertifi v0.0.0-20191021191039-0944d244cd40
 github.com/certifi/gocertifi
 # github.com/cespare/xxhash/v2 v2.1.1
 github.com/cespare/xxhash/v2
@@ -308,7 +308,7 @@ github.com/form3tech-oss/jwt-go
 github.com/fsnotify/fsnotify
 # github.com/fsouza/go-dockerclient v0.0.0-20171004212419-da3951ba2e9e
 github.com/fsouza/go-dockerclient
-# github.com/getsentry/raven-go v0.0.0-20190513200303-c977f96e1095
+# github.com/getsentry/raven-go v0.2.0
 github.com/getsentry/raven-go
 # github.com/ghodss/yaml v1.0.0
 github.com/ghodss/yaml
@@ -766,6 +766,7 @@ github.com/openshift/library-go/pkg/apiserver/admission/admissiontimeout
 github.com/openshift/library-go/pkg/apiserver/apiserverconfig
 github.com/openshift/library-go/pkg/apps/appsserialization
 github.com/openshift/library-go/pkg/apps/appsutil
+github.com/openshift/library-go/pkg/authentication/bootstrapauthenticator
 github.com/openshift/library-go/pkg/authorization/authorizationutil
 github.com/openshift/library-go/pkg/authorization/scopemetadata
 github.com/openshift/library-go/pkg/build/buildutil
@@ -786,6 +787,7 @@ github.com/openshift/library-go/pkg/image/registryclient
 github.com/openshift/library-go/pkg/image/trigger
 github.com/openshift/library-go/pkg/legacyapi/legacygroupification
 github.com/openshift/library-go/pkg/network
+github.com/openshift/library-go/pkg/oauth/oauthserviceaccountclient
 github.com/openshift/library-go/pkg/quota/clusterquotamapping
 github.com/openshift/library-go/pkg/quota/quotautil
 github.com/openshift/library-go/pkg/security/uid
@@ -794,6 +796,45 @@ github.com/openshift/library-go/pkg/template/generator
 github.com/openshift/library-go/pkg/template/templateprocessing
 github.com/openshift/library-go/pkg/template/templateprocessingclient
 github.com/openshift/library-go/pkg/unidling/unidlingclient
+# github.com/openshift/oauth-apiserver v0.0.0-20210323120116-69f527e90f59
+## explicit
+github.com/openshift/oauth-apiserver/pkg/api/install
+github.com/openshift/oauth-apiserver/pkg/apiserver
+github.com/openshift/oauth-apiserver/pkg/cmd/oauth-apiserver
+github.com/openshift/oauth-apiserver/pkg/cmd/oauth-apiserver/openapiconfig
+github.com/openshift/oauth-apiserver/pkg/oauth/apis/oauth
+github.com/openshift/oauth-apiserver/pkg/oauth/apis/oauth/install
+github.com/openshift/oauth-apiserver/pkg/oauth/apis/oauth/v1
+github.com/openshift/oauth-apiserver/pkg/oauth/apis/oauth/validation
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthaccesstoken
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthaccesstoken/etcd
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthauthorizetoken
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthauthorizetoken/etcd
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthclient
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthclient/etcd
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthclientauthorization
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/oauthclientauthorization/etcd
+github.com/openshift/oauth-apiserver/pkg/oauth/apiserver/registry/useroauthaccesstokens/delegate
+github.com/openshift/oauth-apiserver/pkg/oauth/printers/internalversion
+github.com/openshift/oauth-apiserver/pkg/openapi
+github.com/openshift/oauth-apiserver/pkg/printers
+github.com/openshift/oauth-apiserver/pkg/printerstorage
+github.com/openshift/oauth-apiserver/pkg/serverscheme
+github.com/openshift/oauth-apiserver/pkg/user/apis/user
+github.com/openshift/oauth-apiserver/pkg/user/apis/user/install
+github.com/openshift/oauth-apiserver/pkg/user/apis/user/v1
+github.com/openshift/oauth-apiserver/pkg/user/apis/user/validation
+github.com/openshift/oauth-apiserver/pkg/user/apiserver
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/group
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/group/etcd
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/identity
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/identity/etcd
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/user
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/user/etcd
+github.com/openshift/oauth-apiserver/pkg/user/apiserver/registry/useridentitymapping
+github.com/openshift/oauth-apiserver/pkg/user/printers/internalversion
+github.com/openshift/oauth-apiserver/pkg/version
 # github.com/openshift/openshift-apiserver v0.0.0-alpha.0.0.20210618182237-f9ac08715d1b
 ## explicit
 github.com/openshift/openshift-apiserver/pkg/api
@@ -996,7 +1037,7 @@ github.com/peterbourgon/diskv
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
-# github.com/pkg/profile v1.3.0
+# github.com/pkg/profile v1.4.0
 github.com/pkg/profile
 # github.com/pquerna/cachecontrol v0.1.0
 ## explicit

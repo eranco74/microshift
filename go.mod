@@ -49,6 +49,7 @@ require (
 	github.com/openshift/api v0.0.0-20210428205234-a8389931bee7
 	github.com/openshift/build-machinery-go v0.0.0-20210209125900-0da259a2c359
 	github.com/openshift/client-go v0.0.0-20210112165513-ebc401615f47
+	github.com/openshift/oauth-apiserver v0.0.0-20210323120116-69f527e90f59 
 	github.com/openshift/openshift-apiserver v0.0.0-alpha.0.0.20210618182237-f9ac08715d1b
 	github.com/openshift/openshift-controller-manager v0.0.0-alpha.0.0.20210730000055-c93745bf6898
 	github.com/pkg/errors v0.9.1
