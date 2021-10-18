@@ -24,7 +24,7 @@ var Image = map[string]string{
 	"haproxy_router":                "quay.io/openshift/okd-content@sha256:01cfbbfdc11e2cbb8856f31a65c83acc7cfbd1986c1309f58c255840efcc0b64",
 	"kube_flannel":                  "quay.io/coreos/flannel:v0.14.0",
 	"kube_rbac_proxy":               "quay.io/openshift/okd-content@sha256:459f15f0e457edaf04fa1a44be6858044d9af4de276620df46dc91a565ddb4ec",
-	"kubevirt_hostpath_provisioner": "quay.io/kubevirt/hostpath-provisioner:v0.8.2",
+	"kubevirt_hostpath_provisioner": "quay.io/kubevirt/hostpath-provisioner:v0.8.0",
 	"pause":                         "k8s.gcr.io/pause",
 	"service_ca_operator":           "quay.io/openshift/okd-content@sha256:dd1cd4d7b1f2d097eaa965bc5e2fe7ebfe333d6cbaeabc7879283af1a88dbf4e",
 }
